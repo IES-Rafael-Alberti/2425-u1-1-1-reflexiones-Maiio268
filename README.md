@@ -155,17 +155,17 @@ Con base en la experiencia de evaluación de las herramientas:
 RESPUESTAS:
 1. Relación software y hardware
 1.1. Primera parte
-1.1.1.El código es procesado por la CPU, que hace los cálculos necesarios para que el programa funcione. Se pueden distinguir tres fases: Captación (la CPU recibe las instrucciones), decodificación (la CPU interpreta las instrucciones recibidas) y ejecución (la CPU ejecuta las instrucciones ya interpretadas).
-1.1.2.La información del botón o el LED se guarda temporalmente en la memoria RAM mientras se esté ejecutando el programa, cuando se apague el equipo, esta información desaparecerá.
-1.1.3.El botón es un dispositivo de entrada y el LED es un dispositivo de salida, la CPU procesa el código recibido por el botón y la información sale finalmente por los dispositivos de salida, es decir, el LED se enciende cuando le damos al botón gracias al código procesado por la CPU.
+1.1.1. El código es procesado por la CPU, que hace los cálculos necesarios para que el programa funcione. Se pueden distinguir tres fases: Captación (la CPU recibe las instrucciones), decodificación (la CPU interpreta las instrucciones recibidas) y ejecución (la CPU ejecuta las instrucciones ya interpretadas).
+1.1.2. La información del botón o el LED se guarda temporalmente en la memoria RAM mientras se esté ejecutando el programa, cuando se apague el equipo, esta información desaparecerá.
+1.1.3. El botón es un dispositivo de entrada y el LED es un dispositivo de salida, la CPU procesa el código recibido por el botón y la información sale finalmente por los dispositivos de salida, es decir, el LED se enciende cuando le damos al botón gracias al código procesado por la CPU.
 1.2. Segunda parte
-1.2.1.El software envía instrucciones a los periféricos (teclado, disco duro...), depende el periférico puede ser de entrada o salida, después el programa se carga en la memoria RAM y la CPU va recuperando una a una las instrucciones y las va ejecutando, llevando a cabo las tareas que el software tenia programadas. 
-1.2.2. 
-1.2.3. 
-1.2.4. 
+1.2.1. El software envía instrucciones a los periféricos (teclado, disco duro...), depende el periférico puede ser de entrada o salida, después el programa se carga en la memoria RAM y la CPU va recuperando una a una las instrucciones y las va ejecutando, llevando a cabo las tareas que el software tenia programadas. 
+1.2.2. Cada vez que ejecutamos un programa en el ordenador, este se carga en la memoria RAM, la cual guarda temporalmente los datos mientras se ejecuta el programa. Pongamos de ejemplo el juego del tetris, la memoria RAM almacena temporalmente la posición de las piezas mientras el juego sigue en ejecución.
+1.2.3. El software es el que da las instrucciones (el código) sobre algo, el procesador es el que ejecuta esas instrucciones, es decir, esas instrucciones son las que dictan qué hacer, son las que mandan.
+1.2.4. Pongamos el ejemplo de un videojuego cualquiera: cuando se presiona una tecla, el teclado envía una señal al procesador y éste ejecuta la órden mientras, la RAM guarda temporalmente los datos, y el disco duro se encargaría de almacenar la partida por si quieres continuarla en otro momento.
 
 2. Del código fuente al ejecutable
-2.1.
+2.1. 
 2.2.
 2.3.
 2.4.
