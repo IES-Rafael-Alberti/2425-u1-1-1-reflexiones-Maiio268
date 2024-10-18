@@ -67,7 +67,7 @@ Apoyate en los siguientes recursos para realizar la práctica:
 [Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
 
 ## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
+He usado chat gpt para informarme sobre ciertas dudas que tenía sobre las siguientes preguntas: 2.4, 3.1
 
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**
@@ -165,37 +165,42 @@ RESPUESTAS:
 1.2.4. Pongamos el ejemplo de un videojuego cualquiera: cuando se presiona una tecla, el teclado envía una señal al procesador y éste ejecuta la órden mientras, la RAM guarda temporalmente los datos, y el disco duro se encargaría de almacenar la partida por si quieres continuarla en otro momento.
 
 2. Del código fuente al ejecutable
-2.1. 
-2.2.
-2.3.
-2.4.
+2.1. El código fuente son las instrucciones que se escriben con un lenguaje de programación (Python, Java, C...) que solo entendemos los humanos pero las máquinas no. El código objeto es el código fuente compilado, es decir, transformado de forma que la máquina esté más cerca de entender el código, aunque todavía no es ejecutable. Finalmente, el código ejecutable es la versión final que puede ser leída y ejecutada por la máquina, ya que está escrito en lenguaje máquina (unos y ceros).
+2.2. El ordenador no puede entender el código fuente directamente porque está escrito a partir de lenguajes de programación los cuales sólo nosotros los humanos podemos entender, el ordenador sólo entiende el lenguaje máquina (unos y ceros).
+2.3. El enlazador hace que el programa funcione correctamente ya que en él se incluyen las bibliotecas necesarias, además, esta herramienta une los archivos del código objeto en un solo archivo ejecutable.
+2.4. Si falta el código ejecutable no puede ejecutarse el programa ya que la máquina no entiende el código objeto y si falta el código objeto tampoco podría ejecutarse el programa porque no podría crearse el ejecutable debido a que no existiría el proceso de enlazado.
 
 3. Generación de código intermedio
-3.1.
-3.2.
-3.3.
-3.4.
+3.1. El código intermedio no está preparado para ser ejecutado, su arquitectura suele ser independiente del sistema operativo y la del procesador, mientras que el código ejecutable tradicional sí puede ejecutarse directamente y su código es específico de la arquitectura de la máquina.
+3.2. La máquina virtual se encarga de ejecutar el código intermedio, traduciendo el código a instrucciones que puedan ser procesadas por la CPU, es decir, es útil porque es el "intérprete" entre el código intermedio y el hardware.
+3.3. Ofrece varias ventajas: portabilidad (con las máquinas virtuales adecuadas, el mismo código puede funcionar en varios sistemas operativos distintos sin tener que recompilarlo de nuevo), seguridad (las máquinas virtuales controlan el acceso del código intermedio al hardware, defendiendo al equipo de programas maliciosos) y optimización en tiempo de ejecución (algunas máquinas virtuales utilizan técnicas como la compilación Just-In-Time (JIT), que convierte el código intermedio en código de máquina justo antes de que sea ejecutado, optimizando el rendimiento del programa).
+3.4. También usan máquinas virtuales programas como C#, Ruby, PHP, Erlang, Kotlin, Scala, Haskell...
 
 4. Lenguajes de programación
 4.1. Primera parte
-4.1.1.
-4.1.2.
+4.1.1. En la compilación, el código fuente se transforma a código objeto, mientras que en la ejecución directa el código fuente se traduce y ejecuta línea por línea.
+4.1.2. Si hay un error de sintaxis en el lenguaje compilado, éste se detecta antes de transformar el código fuente a código objeto, pero en el lenguaje interpretado el error se detecta cuando se traduce y ejecuta línea por línea el código fuente.
 4.2. Segunda parte
-4.2.1.
-4.2.2.
+4.2.1. La abstracción de los lenguajes de alto nivel es más alta ya que no se enfoca directamente en el hardware, sino en el estado del programa y cómo este cambia, mientras que la abstracción de los lenguajes de bajo nivel es menor debido a que proporcionan un controlo directo sobre el hardware.
+4.2.2. Los lenguajes de alto nivel son muy fáciles de escribir y comprender, sin embargo, tienen menos control sobre los detalles de bajo nivel del hardware, mientras que los lenguajes de bajo nivel ofrecen mucho control y eficiencia pero son más difíciles de aprender y escribir y se usan cuando se necesita acceso directo a los recursos del sistema o alto rendimiento.
 4.3. Tercera parte
-4.3.1.
-4.3.2.
+4.3.1. 
+4.3.2. 
 4.4. Reflexión final
-4.4.1.
-4.4.2.
-4.4.3.
-4.4.4.
+4.4.1. 
+4.4.2. 
+4.4.3. 
+4.4.4. 
 
 5. Herramientas de desarrollo
 
 5.1. Primera parte
-
+5.1.1. 
+5.1.2. 
+5.1.3. 
+5.1.4.
+5.1.5.
+5.1.6.
 5.2. Segunda parte
 
 5.3. Reflexión final
