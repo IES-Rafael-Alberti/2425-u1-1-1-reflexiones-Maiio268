@@ -12,18 +12,18 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
+- **ID de la Actividad:** 2425-u1-1-1-reflexiones-Maiio268
+- **Módulo:** EDES
+- **Unidad de Trabajo:** Unidad 1: Introducción al desarrollo del software
 - **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **Fecha de Entrega:** 20/10/2024
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Mario Montes Bermúdez
+  - **Correo electrónico:** mmonber326@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** MMB
 
 ## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+La actividad consiste en responder a las preguntas propuestas por el profesor sobre la Unidad 1: Introducción al desarrollo del software.
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
@@ -47,7 +47,7 @@ Apoyate en los siguientes recursos para realizar la práctica:
 
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+He desarrollado la actividad respondiendo a las perguntas propuestas e informándome sobre las respuestas leyendo los apuntes adjuntados por el profesor y consultando ciertas páginas web.mas.
 
 ### Código Fuente
 [Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
@@ -64,10 +64,10 @@ Apoyate en los siguientes recursos para realizar la práctica:
 - **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
 
 ## Conclusiones
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
+Tras desarrollar la actividad, he aprendido sobre el software y hardware en general, los diferentes tipos de lenguaje y sus usos y los diversos tipos de herramientas para el desarrollo del software.
 
 ## Referencias y Fuentes
-He usado chat gpt para informarme sobre ciertas dudas que tenía sobre las siguientes preguntas: 2.4, 3.1
+He usado chat gpt para informarme sobre ciertas dudas que tenía sobre algunas preguntas.
 
 ### Notas Adicionales:
 1. **Nombres de Archivos y Repositorios:**
@@ -184,26 +184,32 @@ RESPUESTAS:
 4.2.1. La abstracción de los lenguajes de alto nivel es más alta ya que no se enfoca directamente en el hardware, sino en el estado del programa y cómo este cambia, mientras que la abstracción de los lenguajes de bajo nivel es menor debido a que proporcionan un controlo directo sobre el hardware.
 4.2.2. Los lenguajes de alto nivel son muy fáciles de escribir y comprender, sin embargo, tienen menos control sobre los detalles de bajo nivel del hardware, mientras que los lenguajes de bajo nivel ofrecen mucho control y eficiencia pero son más difíciles de aprender y escribir y se usan cuando se necesita acceso directo a los recursos del sistema o alto rendimiento.
 4.3. Tercera parte
-4.3.1. 
-4.3.2. 
+4.3.1. Los objetos encapsulan datos y comportamientos, este tipo de lenguaje es útil cuando se desea modelar elementos del mundo real dentro del software.
+4.3.2. Este enfoque funcional es diferente al tradicional enfoque imperativo de Python, aquí se definen funciones y la programación se presenta de una forma más estructurada.
 4.4. Reflexión final
-4.4.1. 
-4.4.2. 
-4.4.3. 
-4.4.4. 
+4.4.1. Los interpretados, ya que son más flexibles y fáciles de probar porque no necesitan ser compilados.
+4.4.2. Por ejemplo, cuando se requiere un tiempo de ejecución más rápido, ya que en el lenguaje compilado el código ya ha sido traducido a instrucciones máquina.
+4.4.3. Cuando se requiere alto rendimiento o acceso directo a los recursos del sistema es mejor usar uno de bajo nivel, mientras que cuando se pretende la gestión de la memoria automática, es mejor usar un lenguaje de alto nivel.
+4.4.4. El paradigma orientado a objetos se enfoca en organizar el código en torno a objetos que contienen datos encapsulados, mientras que el imperativo se basa en instrucciones y el funcional en funciones puras.
 
 5. Herramientas de desarrollo
 
 5.1. Primera parte
-5.1.1. 
-5.1.2. 
-5.1.3. 
-5.1.4.
-5.1.5.
-5.1.6.
+5.1.1. Los editores incorporan funcionalidades, como el coloreado de la sintaxis, que ayudan al programador, el compilador traduce el código fuente a código máquina, el intérprete ejecuta el código fuente línea por línea, sin necesidad de compilarlo previamente a código máquina, las herramientas de documentación mantienen la claridad del código y facilitan su comprensión, los depuradores analizan el comportamiento de un programa en tiempo de ejecución para detectar errores, los sistemas de Gestión de Versiones controlan los cambios en el código y permiten la colaboración en equipo, los fameworks proporcionan una estructura predefinida para desarrollar aplicaciones y las herramientas de pruebas aseguran que el software funcione como se espera.
+5.1.2. Los editores se suelen usar para edición rápida de código fuente, scripts o archivos de configuración, los compiladores se usan cuando se necesita generar programas con alto rendimiento, los intérpretes se usan principalmente para prototipado rápido y scripts de automatización, las herramientas de documentación se usan para crear guías de uso, referencias de API y documentación técnica de los proyectos, los depuradores se utilizan para identificar y corregir errores lógicos o de ejecución en programas que no producen el resultado esperado, los sistemas de Gestión de Versiones facilitan la colaboración en equipo, permiten gestionar diferentes versiones del código y garantizan la trazabilidad de los cambios, los frameworks se usan para acelerar el desarrollo de proyectos y las herramientas de prueba se utilizan para verificar que el software cumple con los requisitos funcionales y no presenta errores.
+5.1.3. Editores de Texto: Consumen pocos recursos, lo que los hace útiles en sistemas con poca capacidad de procesamiento y pueden ser utilizados en sistemas donde no es práctico instalar un IDE completo. Compiladores: Generan código ejecutable de alto rendimiento y ofrecen más control sobre la optimización del código. Intérpretes: Permiten ejecutar código de manera interactiva y no requieren un proceso de compilación, lo que facilita la edición y ejecución inmediata del código. Herramientas de Documentación: Automatizan la creación de documentación, reduciendo el esfuerzo manual y aseguran que la documentación se mantenga actualizada con el código. Depuradores: Facilitan la identificación de errores complejos y permiten explorar el estado del programa en tiempo real. Sistemas de Gestión de Versiones: Permiten trabajar en equipo de manera eficiente y segura y facilitan el seguimiento y revertido de cambios. Frameworks: Ahorran tiempo en el desarrollo al reutilizar componentes y estandarizan la estructura y organización del código. Herramientas de pruebas: Detectan errores y malas prácticas antes de que lleguen al entorno de producción y mejoran la mantenibilidad y legibilidad del código.
+5.1.4. Compilador: La experiencia es fácil ya que es una herramienta que básicamente no tiene complicación, lo único que hace es traducir el código fuente a código máquina, no tiene más.
+5.1.5. Compilador: Cuando se necesite generar un programa con alto rendimiento que aproveche al máximo los recursos del hardware y sea ejecutable directamente sin necesidad de intérpretes. 
+5.1.6. Intérprete: al ejecutar el código línea por línea, el proceso suele ser más lento que el de un código compilado.
 5.2. Segunda parte
-
+5.2.1. Para mi. el compilador es la herramienta más útil, ya que sin ésta sería imposible ejecutar los códigos escritos en lenguajes como C o C++.
+5.2.2. El compilador tiene un proceso más rápido que el intérprete y estos se usan cuando se necesita generar programas con alto rendimiento, que aprovechen al máximo los recursos del hardware y sean ejecutables directamente sin necesidad de intérpretes.
+5.2.3. Los sistemas de Gestión de Versiones, es la herramienta más intuitiva ya que tiene comandos muy simples (por ejemplo Git: git add, git commit -m, git push...) y tiene facilidad de uso.
+5.2.4. Cuando se necesite generar un programa con alto rendimiento que aproveche al máximo los recursos del hardware y sea ejecutable directamente sin necesidad de intérpretes. 
+5.2.5. El desarrollo de aplicaciones web en Python se beneficiarían más de Django.
 5.3. Reflexión final
-
+5.3.1. Impacta bastante, por ejemplo, la elección de frameworks como Django proporcionan una estructura predefinida para desarrollar aplicaciones, lo que hace que la calidad del software aumente considerablemente, también el uso de, por ejemplo, las herramientas de documentación, que mantienen la claridad del código y facilitan su comprensión.  ¿Cómo crees que impacta la elección de la herramienta en la calidad del software?
+5.3.2. Buscaría una herramienta intuitiva y fácil de utilizar, que sea rápida y eficiente, que funcione bien con el resto de herramientas implementadas anteriormente por el usuario y que la herramienta ofrezca una buena seguridad.
+5.3.3. Antes no sabía mucho sobre ciertas herramientas, ni cómo funcionaban ni cómo se aplicaban, pero ahora que las he evaluado tengo una mejor idea de cómo y para qué se utilizan.
 
 
